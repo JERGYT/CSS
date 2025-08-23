@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: 0px;
     font-weight: normal;
 }
-.titulo{
+
+.titulo {
     color: #940101;
     text-align: center;
     text-decoration: line-through;
@@ -31,7 +32,7 @@
     margin-block-end: 30px;
     margin-inline-start: 20px;
     margin-inline-end: 30px;
-    
+
     padding: 35px;
 
     border-color: #0000ff;
@@ -43,26 +44,26 @@
     border-style: groove;
     border-style: ridge;
     border: #ff0000 10px solid;
-    
+
     border-radius: 999px;
-    
+
     border-left-color: #0000ff;
     border-left-width: 15px;
     border-left-style: dashed;
     border-left: #00ff00 15px dashed;
-    
+
     border-top-left-radius: 0px;
     border-top-right-radius: 50px;
 }
 
-.circulo{
+.circulo {
     width: 250px;
     height: 250px;
     border: #088c01 1px solid;
     border-radius: 50%;
     background: #088c01;
     background-color: #088c01;
-    
+
     background-image: url('../RECURSOS/LEGONowOnRoblox.webp');
     background-size: 50px;
     background-repeat: no-repeat;
@@ -73,4 +74,39 @@
 
     opacity: 1;
     box-shadow: 0px 0px 10px 5px #0101d6;
-}   
+}
+
+.contenido {
+    border: 2px solid #0000ff;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+}
+
+.div1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.div2, .div3 {
+    width: 50px;
+    height: 50px;
+    background-color: #0101d6;
+}
+
+.div2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.div3 {
+    background-color: #239401;
+    position: sticky;
+    top: 20px;
+}
