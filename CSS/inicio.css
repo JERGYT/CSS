@@ -54,3 +54,23 @@
     border-top-left-radius: 0px;
     border-top-right-radius: 50px;
 }
+
+.circulo{
+    width: 250px;
+    height: 250px;
+    border: #088c01 1px solid;
+    border-radius: 50%;
+    background: #088c01;
+    background-color: #088c01;
+    
+    background-image: url('../RECURSOS/LEGONowOnRoblox.webp');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center;
+
+    margin: auto;
+
+    opacity: 1;
+    box-shadow: 0px 0px 10px 5px #0101d6;
+}   
