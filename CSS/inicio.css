@@ -31,5 +31,26 @@
     margin-block-end: 30px;
     margin-inline-start: 20px;
     margin-inline-end: 30px;
+    
     padding: 35px;
+
+    border-color: #0000ff;
+    border-width: 5px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border: #ff0000 10px solid;
+    
+    border-radius: 999px;
+    
+    border-left-color: #0000ff;
+    border-left-width: 15px;
+    border-left-style: dashed;
+    border-left: #00ff00 15px dashed;
+    
+    border-top-left-radius: 0px;
+    border-top-right-radius: 50px;
 }
