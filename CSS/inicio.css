@@ -69,7 +69,7 @@
     background-repeat: no-repeat;
     background-size: 200%;
     background-position: center;
-
+    
     margin: auto;
 
     opacity: 1;
@@ -145,6 +145,11 @@
     width: 100%;
     height: 100%;
 }
+
+.sonic {
+    width: 50%;
+    height: 50%;
+}   
 
 .grid nav {
     grid-area: nav;
