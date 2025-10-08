@@ -3,11 +3,12 @@ $estado = $_GET["estado"];
 $valor = $_GET["valor"];
 $numero = $_POST['numero'];
 
-echo "Estado: $estado $valor<br>";
 $mod = $numero % 2;
+echo "Estado: $estado $valor<br>";
 if ($mod == 0) {
-    echo "El número $numero es par";
+    echo "El numero es par";
 } else {
-    echo "El número $numero es impar";
+    echo "El numero es impar";
 }
+
 ?>
